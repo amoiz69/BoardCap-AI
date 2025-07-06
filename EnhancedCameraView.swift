@@ -8,6 +8,7 @@
 import SwiftUI
 import AVFoundation
 
+// MARK: - Body
 struct EnhancedCameraView: View {
     @StateObject private var cameraManager = CameraManager()
     @StateObject private var imageProcessor = ImageProcessor()
